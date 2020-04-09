@@ -1,0 +1,13 @@
+This assignment uses Inheritance, Containment and the Builder Design Pattern.
+
+It is very similar to the Meal Builder example I discussed in lecture and which appears on the class BeachBoard page under
+
+Contents->Design Pattern Examples->Builder.
+
+I have given you the Main which you must use. I will grade your answer with this Main.
+
+The desired output is also posted.
+
+You must submit:  Car.java, Item.java, CarBuilder.java, ElectricCarBuilder.java, RaceCarBuilder.java and VanBuilder.java.
+
+Be sure to have the first two ID lines in everyone of your .java files.
