@@ -10,21 +10,21 @@ public class RaceCarBuilder extends CarBuilder{
     }
 
     @Override
-    public void addBody() {
-        // TODO Auto-generated method stub
-
+    public void addBody() 
+    {
+        addItem(new Item("Body: Formula One Body"));
     }
 
     @Override
-    public void addSoundSystem() {
-        // TODO Auto-generated method stub
-
+    public void addSoundSystem() 
+    {
+        addItem(new Item("Sounds: Radio in helmet"));
     }
 
     @Override
-    public void addWheels() {
-        // TODO Auto-generated method stub
-
+    public void addWheels() 
+    {
+        addItem(new Item("Wheels: High Performance Firestone"));
     }
 
 }

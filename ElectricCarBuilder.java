@@ -4,27 +4,27 @@
 public class ElectricCarBuilder extends CarBuilder{
 
     @Override
-    public void addEngine() {
-        // TODO Auto-generated method stub
-
+    public void addEngine() 
+    {
+        addItem(new Item("Engine: 8 Batteries"));
     }
 
     @Override
-    public void addBody() {
-        // TODO Auto-generated method stub
-
+    public void addBody() 
+    {
+        addItem(new Item(""));
     }
 
     @Override
-    public void addSoundSystem() {
-        // TODO Auto-generated method stub
-
+    public void addSoundSystem() 
+    {
+        addItem(new Item(""));
     }
 
     @Override
-    public void addWheels() {
-        // TODO Auto-generated method stub
-
+    public void addWheels() 
+    {
+        addItem(new Item(""));
     }
 
 }
