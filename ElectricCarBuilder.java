@@ -12,19 +12,19 @@ public class ElectricCarBuilder extends CarBuilder{
     @Override
     public void addBody() 
     {
-        addItem(new Item(""));
+        addItem(new Item("Body: Two door"));
     }
 
     @Override
     public void addSoundSystem() 
     {
-        addItem(new Item(""));
+        addItem(new Item("Sound: One speaker in each door"));
     }
 
     @Override
     public void addWheels() 
     {
-        addItem(new Item(""));
+        addItem(new Item("Wheels: Little tiny ones"));
     }
 
 }
